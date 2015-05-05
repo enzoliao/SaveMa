@@ -1,0 +1,13 @@
+﻿{
+    "name": "SaveTaobao",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "author":"Enzo",
+    "description": "解除微信对于淘宝链接的屏蔽",
+    "permissions": [
+    "http://*/*","https://*/*/*"
+  ],
+  "content_scripts": [
+    {"js":["content.js"],"matches": ["http://support.weixin.qq.com/cgi-bin/*"]}
+   ]
+}
