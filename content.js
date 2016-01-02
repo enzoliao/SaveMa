@@ -1,2 +1,2 @@
 ﻿x=document.getElementsByTagName("div")[1]; 
-window.location.href=x.innerHTML; 
+window.location.href=x.textContent; 
